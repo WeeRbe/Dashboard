@@ -610,7 +610,7 @@
     left: 10px;
   }
 }
-@media (max-width: 410px) {
+@media (max-width: 440px) {
   .div5,
   .div3 {
     display: none;
@@ -633,12 +633,12 @@
     grid-area: 1 / 4 / 2 / 5;
   }
   .dashboard-block__paginations {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     gap: 0px;
-    margin-top: 25px;
+    margin-top: auto;
     padding: 0px 10px 25px 10px;
+  }
+  .dashboard-block{
+    height: 100%;
   }
   .dashboard-block__search-input input {
     width: 120px;
